@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-image: url("pro.gif");
+    background-size: cover;
+}
+
+img{
+   display: block;
+   margin: auto;
+   width: 50%;
+   
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+a:visited {
+    color: white;
+}
