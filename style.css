@@ -1,24 +1,28 @@
 body{
     color: white;
-    background-image: url("pro.gif");
+    text-shadow: 2px 2px black;
+    background-image: url("https://wallpaperscraft.com/image/computer_keyboard_mouse_laptop_mac_apple_66734_1920x1080.jpg");
     background-size: cover;
 }
 
-img{
+#logo{
    display: block;
    margin: auto;
    width: 50%;
+   
    
 }
 
 
 h1{
-    color: white;
     text-align: center;
 }
 
 p{
     font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
 }
 
 a:visited {
