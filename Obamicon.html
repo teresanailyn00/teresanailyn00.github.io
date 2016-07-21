@@ -7,9 +7,21 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
+    <script>
+        function bigImg(x) {
+            x.style.height = "500px";
+            x.style.width = "700px";
+        }
+
+        function normalImg(x) {
+            x.style.height = "300px";
+            x.style.width = "500px";
+        }
+    </script>
+    
     <body>
         <h1> Obamicon Got7 Style </h1>
-        <img src= "newgot7.jpg" >
+        <img src= "newgot7.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" width="500" height="300">
     </body>
 
 
